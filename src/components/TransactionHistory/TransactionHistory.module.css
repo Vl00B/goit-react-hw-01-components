@@ -1,0 +1,25 @@
+.transactionHistory {
+  padding: 20px 0;
+  margin: 0;
+  width: 900px;
+}
+
+.row {
+  width: 100px;
+}
+
+.cell {
+  text-align: center;
+  width: 33%;
+  border: 1px solid gray;
+}
+
+.cell_right {
+  composes: cell;
+  text-align: right;
+}
+
+.cell_left {
+  composes: cell;
+  text-align: left;
+}
